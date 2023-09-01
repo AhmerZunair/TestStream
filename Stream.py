@@ -25,3 +25,9 @@ st.line_chart(
     y = 'col2',
     color = 'col3'
 )
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
