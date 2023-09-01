@@ -8,7 +8,7 @@ st.write("""
 Hello *world!*
 """)
  
-df = pd.read_excel("C:/Users/user8/Desktop/RM_Report_RM_Data 2.xlsx")
+#df = pd.read_excel("C:/Users/user8/Desktop/RM_Report_RM_Data 2.xlsx")
 #df.head()
 #st.line_chart(df, x=df['RM_Release_Status'], y=df['Final_Scope_For_Migration'])
 
