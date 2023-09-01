@@ -1,7 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 st.write("""
 # My first app
@@ -25,9 +30,4 @@ st.line_chart(
     y = 'col2',
     color = 'col3'
 )
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
